@@ -6,38 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <!-- use style:css to link style.css -->
+
 </head>
 
 <body>
     <h1>Spooky madlib</h1>
-    <input type="text" placeholder="emotion" required>
-    <input type="text" placeholder="noun" required>
-    <input type="text" placeholder="adjective" required>
-    <input type="text" placeholder="color" required>
-    <input type="text" placeholder="noun" required>
-    <input type="text" placeholder="adjective" required>
-    <input type="text" placeholder="noun" required>
-    <input type="text" placeholder="adjective" required>
-    <input type="text" placeholder="verb" required>
-    <input type="text" placeholder="noun" required>
-    <input type="text" placeholder="verb, past tense" required>
-    <input type="text" placeholder="adverb" required>
-    <input type="text" placeholder="adjective" required>
-    <input type="text" placeholder="noun" required>
-    <input type="text" placeholder="adverb" required>
+    <input type="text" placeholder="emotion" id="wordOne">
+    <input type="text" placeholder="noun" id="wordTwo">
+    <input type="text" placeholder="adjective" id="wordThree">
+    <input type="text" placeholder="color" id="wordFour">
+    <input type="text" placeholder="noun" id="wordFive">
+    <input type="text" placeholder="adjective" id="wordSix">
+    <input type="text" placeholder="noun" id="wordSeven">
+    <input type="text" placeholder="adjective" id="wordEight">
+    <input type="text" placeholder="verb" id="wordNine">
+    <input type="text" placeholder="noun" id="wordTen">
+    <input type="text" placeholder="verb, past tense" id="wordEleven">
+    <input type="text" placeholder="adverb" id="wordTwelve">
+    <input type="text" placeholder="adjective" id="wordThirteen">
+    <input type="text" placeholder="noun" id="wordFourteen">
+    <input type="text" placeholder="adverb" id="wordFifteen">
 
-    <p>I started from my sleep with (blank); a cold (blank) covered my forehead; when, by the dim and (blank) light of
-        the moon, as it forced its way through the window shutters, I beheld the (blank)- the (blank) monster whom I had
-        created. He held up the curtain of the bed; and his eyes, if eyes they may be called, were fixed on me. His
-        (blank) opened, and he muttered some (blank) sounds, while a grin wrinkled his cheeks. He might have spoken, but
-        I did not hear; one hand was stretched out, seemingly to (blank) me, but I escaped and ran downstairs. I took
-        refuge in the (blank) belonging to the house which I inhabited, where I (blank) during the rest of the night,
-        walking up and down in the greatest agitation, listening, (blank), catching, and fearing each sound as if it
-        were to announce the approach of the (blank)(blank) to which I had so (blank) given life.</p>
+    <p id="answer"></p>
 
-
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" onclick="createParagraph()">
+    <script src="app.js"></script>
 </body>
 
 </html>
